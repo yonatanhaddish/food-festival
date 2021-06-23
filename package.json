@@ -4,9 +4,10 @@
   "description": "",
   "main": "assets/js/script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack serve"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "keywords": [],
   "devDependencies": {
     "file-loader": "^6.2.0",
+    "image-webpack-loader": "^7.0.1",
     "webpack": "^5.40.0",
     "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^4.7.2"
@@ -28,7 +30,6 @@
   "dependencies": {
     "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.1",
-    "image-webpack-loader": "^7.0.1",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1"
   }
